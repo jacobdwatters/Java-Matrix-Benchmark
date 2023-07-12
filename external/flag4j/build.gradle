@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(':main')
+    implementation group: 'com.flag4j', name: 'flag4j', version: 'v0.0.1-beta'
+}

@@ -6,7 +6,7 @@
     <namePlot>EJML</namePlot>
   </jmbench.impl.LibraryStringInfo>
   <jmbench.impl.LibraryStringInfo>
-    <factory>jmatbench.ejml.EjmlSimpleAlgorithmFactory</factory>
+    <factory>jmatbench.ejml.Flag4jAlgorithmFactory</factory>
     <nameFull>EJML-SimpleMatrix</nameFull>
     <nameShort>EJML-S</nameShort>
     <namePlot>SM</namePlot>

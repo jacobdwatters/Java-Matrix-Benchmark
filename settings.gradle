@@ -5,6 +5,7 @@ include 'external:colt'
 include 'external:jama'
 include 'external:parallelcolt'
 include 'external:hipparchus'
+include 'external:flag4j'
 
 // the following algorithms require non-Maven dependencies
 if( file('external/jeigen/libs/Jeigen-onefat.jar').exists()) {

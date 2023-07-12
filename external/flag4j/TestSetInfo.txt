@@ -1,0 +1,8 @@
+<list>
+  <jmbench.impl.LibraryStringInfo>
+    <factory>jmatbench.flag4j.Flag4jAlgorithmFactory</factory>
+    <nameFull>Fast Linear Algebra for Java</nameFull>
+    <nameShort>Flag4j</nameShort>
+    <namePlot>Flag4j</namePlot>
+  </jmbench.impl.LibraryStringInfo>
+</list>
