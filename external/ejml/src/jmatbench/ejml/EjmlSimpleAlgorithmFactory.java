@@ -25,8 +25,12 @@ import jmbench.interfaces.RuntimePerformanceFactory;
 import jmbench.matrix.RowMajorMatrix;
 import jmbench.tools.BenchmarkConstants;
 import org.ejml.EjmlVersion;
+import org.ejml.data.DMatrixRMaj;
 import org.ejml.dense.row.EigenOps_DDRM;
+import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
+import org.ejml.interfaces.decomposition.CholeskyDecomposition_F64;
 import org.ejml.interfaces.decomposition.EigenDecomposition_F64;
+import org.ejml.interfaces.decomposition.QRPDecomposition_F64;
 import org.ejml.simple.SimpleEVD;
 import org.ejml.simple.SimpleMatrix;
 import org.ejml.simple.SimpleSVD;
@@ -120,6 +124,7 @@ public class EjmlSimpleAlgorithmFactory implements RuntimePerformanceFactory {
     public MatrixProcessorInterface qr() {
         return null;
     }
+
 
     @Override
     public MatrixProcessorInterface det() {

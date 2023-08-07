@@ -20,6 +20,7 @@
 package jmatbench.flag4j;
 
 import com.flag4j.Matrix;
+import com.flag4j.SparseMatrix;
 import jmbench.interfaces.BenchmarkMatrix;
 
 /**
@@ -29,8 +30,12 @@ public class Flag4jBenchmarkMatrix implements BenchmarkMatrix {
 
     Matrix mat;
 
-    public  Flag4jBenchmarkMatrix(Matrix mat) {
+    public Flag4jBenchmarkMatrix(Matrix mat) {
         this.mat = mat;
+    }
+
+    public Flag4jBenchmarkMatrix(SparseMatrix mat) {
+        this.mat = mat.toDense();
     }
 
 

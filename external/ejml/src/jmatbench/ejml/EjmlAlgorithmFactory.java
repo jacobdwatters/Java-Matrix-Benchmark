@@ -460,7 +460,7 @@ public class EjmlAlgorithmFactory implements RuntimePerformanceFactory {
                 if( !solver.setA(matA) )
                     throw new DetectedException("Bad A");
 
-                solver.solve(matB,result);
+                solver.solve(matA, result);
             }
 
             long elapsedTime = System.nanoTime() - prev;
